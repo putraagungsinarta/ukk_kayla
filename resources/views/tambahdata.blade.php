@@ -31,11 +31,10 @@
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1">Jenis Kelamin</label>
-                                <select class="custom-select" name="jeniskelamin"  aria-label="Default select example">
+                                <select required class="custom-select" name="jeniskelamin"  aria-label="Default select example">
                                     <option selected>Pilih Jenis Kelamin</option>
                                     <option value="cowo">cowo</option>
                                     <option value="cewe">cewe</option>
-
                                 </select>
                             </div>
                             <div class="mb-3">
@@ -43,13 +42,13 @@
                                 <input type="number" name="notelpon" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp">
                             </div>
+                        
                             <div class="mb-3">
                                 <label for="exampleInputEmail1">Masukkan Foto</label>
                                 <input type="file" name="foto" class="form-control">
                             </div>
                             
-                            
-
+                        
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
 

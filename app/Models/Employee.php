@@ -9,4 +9,6 @@ class Employee extends Model
 {
     protected $guarded = [];
     protected $dates=['create_at'];
+    protected $fillable=[ 'nama', 'jeniskelamin', 'notelpon', 'foto'];
+   
 }

@@ -43,9 +43,12 @@
                                 <input type="number" name="notelpon" class="form-control" id="exampleInputEmail1"
                                     aria-describedby="emailHelp" value="{{ $data->notelpon }}">
                             </div>
-                            
-                            
-
+                            <div class="mb-3">
+                                <label for="foto" class="form-label">Foto</label>
+                                <input type="file" class="form-control" name="foto" id="foto"
+                                value="{{ $data->foto}}">
+                            </div>
+                        
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
 
